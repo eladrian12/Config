@@ -1,0 +1,32 @@
+{
+  "segments": [
+    "battery",
+    "time",
+    "username",
+    "hostname",
+    "virtual_env",
+    "aws_profile",
+    "ssh",
+    "cwd",
+    "git",
+    "git_stash",
+    "jobs",
+    "set_term_title",
+    "svn",
+    "newline",
+    "root"
+    ],
+  "hostname":{"colorize":true},
+  "username":{"colorize":true},
+  "mode": "patched",
+  "cwd": {
+    "mode": "plain",
+    "max_depth": 4,
+    "full_cwd":"True"
+  },
+  "vcs":{
+        "show_symbol":"True"
+
+   },
+  "theme": "gruvbox"
+}
